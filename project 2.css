@@ -1,0 +1,516 @@
+* {
+	padding: 0%;
+	box-sizing: border-box;
+	margin: 0%;
+	
+}
+
+body {
+    background-color: #212121;
+    
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	border-radius: 24px;
+}
+
+.navbar {
+	width: 100%;
+	padding: 40px 60px;
+	background-color: #f1f1f1;
+	color: #010101;
+	display: flex;
+	justify-content: space-between;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+.logo h1 {
+	font-size: 24px;
+	margin: 0;
+	font-weight: normal;
+	font-weight: bold;
+    
+}
+
+.manu {
+	display: flex;
+	gap: 42px;
+	list-style-type: none;
+}
+
+.manu a {
+	font-size: 24px;
+	color: #010101;
+	text-decoration: none;
+	transition: 0.3s all;
+}
+.manu a:hover {
+	color: aqua;
+}
+
+.hero {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #212121;
+	color: white;
+	padding: 10px 60px;
+	gap: 40px;
+}
+
+.hero-left {
+	flex: 1;
+	min-width: 600px;
+}
+
+.hero-content {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.hero-content h2 {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.hero-button {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.hero-button button {
+	background-color: #212121;
+	color: white;
+	transition: 0.3s ease;
+	width: 120px;
+	height: 45px;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 10px;
+	border: 1px solid white;
+}
+
+.hero-button button:hover {
+	background-color: aqua;
+	color: #212121;
+}
+
+.hero-image {
+	flex: 1;
+	min-width: 300px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.hero-image img {
+	max-width: 60%;
+	height: auto;
+	object-fit: contain;
+}
+
+.my-work {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.my-work h6 {
+	font-size: 36px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.buttons {
+	background-color: #212121;
+	color: white;
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 42px;
+	padding: 20px;
+}
+
+.button1 button {
+	background-color: #212121;
+	color: white;
+	transition: 0.3s ease;
+	width: 120px;
+	height: 45px;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 10px;
+	border: 1px solid white;
+}
+
+.button1 button:hover {
+	background-color: aqua;
+	color: #212121;
+}
+
+.button2 button {
+	background-color: #212121;
+	color: white;
+	transition: 0.3s ease;
+	width: 120px;
+	height: 45px;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 10px;
+	border: 1px solid white;
+}
+
+.button2 button:hover {
+	background-color: aqua;
+	color: #212121;
+}
+
+.button3 button {
+	background-color: #212121;
+	color: white;
+	transition: 0.3s ease;
+	width: 120px;
+	height: 45px;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 10px;
+	border: 1px solid white;
+}
+
+.button3 button:hover {
+	background-color: aqua;
+	color: #212121;
+}
+
+.button4 button {
+	background-color: #212121;
+	color: white;
+	transition: 0.3s ease;
+	width: 150px;
+	height: 45px;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 10px;
+	border: 1px solid white;
+}
+
+.button4 button:hover {
+	background-color: aqua;
+	color: #212121;
+}
+
+.images {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 12px;
+	padding: 40px 60px;
+}
+.images img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;
+	padding: 100px 60px;
+	background-color: aqua;
+    
+}
+
+.card1 {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: 16px 12px;
+	color: white;
+	padding: 16px;
+	display: flexbox;
+	gap: 8px;
+    background-color: #212121;
+}
+.card1 h3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.button-card1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	padding: 10px;
+}
+
+.button-card1 button {
+	background-color: #212121;
+	color: white;
+	transition: 0.3s ease;
+	width: 150px;
+	height: 45px;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 10px;
+	border: 1px solid white;
+	padding: 10px;
+}
+
+.button-card1 button:hover {
+	background-color: aqua;
+	color: #212121;
+}
+
+.card2 {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: 16px 12px;
+	color: white;
+	padding: 16px;
+	gap: 8px;
+    background-color: #212121;
+}
+.card2 h4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	font-size: 24px;
+	font-weight: 500;
+}
+.button-card2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	padding: 10px;
+}
+
+.button-card2 button {
+	background-color: #212121;
+	color: white;
+	transition: 0.3s ease;
+	width: 150px;
+	height: 45px;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 10px;
+	border: 1px solid white;
+	padding: 10px;
+}
+
+.button-card2 button:hover {
+	background-color: aqua;
+	color: #212121;
+}
+
+.card3 {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: 16px 12px;
+	color: white;
+	padding: 16px;
+	gap: 8px;
+    background-color: #212121;
+}
+.card3 h5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	font-size: 24px;
+	font-weight: 500;
+}
+.button-card3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	padding: 10px;
+}
+
+.button-card3 button {
+	background-color: #212121;
+	color: white;
+	transition: 0.3s ease;
+	width: 150px;
+	height: 45px;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 10px;
+	border: 1px solid white;
+	padding: 10px;
+}
+
+.button-card3 button:hover {
+	background-color: aqua;
+	color: #212121;
+}
+
+/* Footer Styles */
+.footer {
+	background-color: #212121;
+	color: white;
+	padding: 40px 60px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.footer-logo h1 {
+	font-size: 24px;
+	margin: 0;
+	font-weight: bold;
+}
+
+.footer-links ul {
+	display: flex;
+	gap: 42px;
+	list-style-type: none;
+}
+
+.footer-links a {
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	transition: 0.3s all;
+}
+
+.footer-links a:hover {
+	color: aqua;
+}
+
+.footer-social {
+	display: flex;
+	gap: 20px;
+}
+
+.footer-social a {
+	color: white;
+	text-decoration: none;
+	transition: 0.3s all;
+}
+
+.footer-social a:hover {
+	color: aqua;
+}
+
+.footer-bottom {
+	text-align: center;
+	font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+	.navbar {
+		padding: 20px 30px;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.manu {
+		gap: 20px;
+	}
+
+	.hero {
+		flex-direction: column;
+		padding: 20px 30px;
+		gap: 20px;
+	}
+
+	.hero-left {
+		min-width: auto;
+	}
+
+	.hero-image {
+		justify-content: center;
+	}
+
+	.hero-image img {
+		max-width: 80%;
+	}
+
+	.buttons {
+		flex-direction: column;
+		gap: 20px;
+		padding: 20px;
+	}
+
+	.images {
+		grid-template-columns: repeat(2, 1fr);
+		padding: 20px 30px;
+	}
+
+	.cards {
+		grid-template-columns: 1fr;
+		padding: 20px 30px;
+	}
+
+	.footer {
+		padding: 20px 30px;
+	}
+
+	.footer-content {
+		flex-direction: column;
+		gap: 20px;
+		text-align: center;
+	}
+
+	.footer-links ul {
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.footer-social {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.navbar {
+		padding: 15px 20px;
+	}
+
+	.manu {
+		gap: 15px;
+	}
+
+	.hero {
+		padding: 15px 20px;
+	}
+
+	.images {
+		grid-template-columns: 1fr;
+		padding: 15px 20px;
+	}
+
+	.footer {
+		padding: 15px 20px;
+	}
+}
