@@ -4,3 +4,4 @@ Beginner programming exercises and small projects while learning core computer s
 Auther:
 <strong>
 Syed Ahmad Shah
+</strong>
